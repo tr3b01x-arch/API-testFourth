@@ -1,0 +1,19 @@
+{
+  "name": "fourth-compatible-api-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local mock REST API for developing integrations against documented Fourth-style hospitality data contracts.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {}
+}
